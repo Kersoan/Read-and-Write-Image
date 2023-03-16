@@ -71,28 +71,33 @@ cv2.waitKey(0)
 ### i) Read and display the image
 
 <br>
+
 ![](1.jpg)
 <br>
 
 ### ii)Write the image
 
 <br>
+
 ![](2.jpg)
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+
 ![](3.jpg)
 <br>
 
 ### iv)Access rows and columns
 <br>
+
 ![](noise_marvel.png)
 <br>
 
 ### v)Cut and paste portion of image
 <br>
+
 ![](sq_marv.png)
 <br>
 
