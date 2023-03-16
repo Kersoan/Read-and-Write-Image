@@ -23,32 +23,46 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  
+I = cv2.imread('marvel.jpg',1)
+cv2_imshow(I)
 
 ```
 ii) #To write the image
 ```
 
-
+image= cv2.imread('marvel.jpg',-1)
+cv2.imwrite('marvel.jpg',image)
 
 ```
 iii) #Find the shape of the Image
 ```python3
 
-
+print(I.shape)
 
 ```
 iv) #To access rows and columns
 
 ```python3
-
+import cv2
+import random
+img= cv2.imread('marvel.jpg',-1)
+for i in range(150):
+    for j in range(img.shape[1]):
+        img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2_imshow(img)
+cv2.waitKey(0)
 
 
 ```
 v) #To cut and paste portion of image
 ```python3
 
-
+import cv2
+img= cv2.imread('marvel.jpg',-1)
+new = img[200:450,200:450]
+img[150:400,150:400] = new
+cv2_imshow(img)
+cv2.waitKey(0)
 
 ```
 
@@ -57,24 +71,29 @@ v) #To cut and paste portion of image
 ### i) Read and display the image
 
 <br>
+![](1.jpg)
 <br>
 
 ### ii)Write the image
 
 <br>
+![](2.jpg)
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+![](3.jpg)
 <br>
 
 ### iv)Access rows and columns
 <br>
+![](4.jpg)
 <br>
 
 ### v)Cut and paste portion of image
 <br>
+![](5.jpg)
 <br>
 
 ## Result:
