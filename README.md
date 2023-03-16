@@ -88,12 +88,12 @@ cv2.waitKey(0)
 
 ### iv)Access rows and columns
 <br>
-![](4.jpg)
+![](noise_marvel.jpg)
 <br>
 
 ### v)Cut and paste portion of image
 <br>
-![](5.jpg)
+![](sq_marv.jpg)
 <br>
 
 ## Result:
