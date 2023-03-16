@@ -72,21 +72,21 @@ cv2.waitKey(0)
 
 <br>
 
-![](1.jpg)
+![](1.png)
 <br>
 
 ### ii)Write the image
 
 <br>
 
-![](2.jpg)
+![](2.png)
 <br>
 
 ### iii)Shape of the Image
 
 <br>
 
-![](3.jpg)
+![](3.png)
 <br>
 
 ### iv)Access rows and columns
